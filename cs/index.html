@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ondřej Růžička — Android vývojář</title>
+<meta name="description" content="Android vývojář se 7+ lety nativního vývoje v Kotlinu a Jetpack Compose. Autor aplikací ClockOut, Luxel a AllergyTrack na Google Play.">
+<link rel="canonical" href="https://ruzickaond.github.io/cs/">
+<link rel="alternate" hreflang="en" href="https://ruzickaond.github.io/">
+<link rel="alternate" hreflang="cs" href="https://ruzickaond.github.io/cs/">
+<link rel="alternate" hreflang="x-default" href="https://ruzickaond.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ondřej Růžička — Android vývojář">
+<meta property="og:description" content="Kotlin a Compose od prvního pixelu po Google Play.">
+<meta property="og:url" content="https://ruzickaond.github.io/cs/">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="theme-color" content="#0E1424">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Ondřej Růžička","jobTitle":"Android vývojář","url":"https://ruzickaond.github.io/cs/","address":{"@type":"PostalAddress","addressLocality":"Hradec Králové","addressCountry":"CZ"},"sameAs":["https://github.com/RuzickaOnd","https://www.linkedin.com/in/ond%C5%99ej-r%C5%AF%C5%BEi%C4%8Dka-8601609b/"],"knowsAbout":["Android","Kotlin","Jetpack Compose","Flutter"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Přeskočit na obsah</a>
+
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Hlavní">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">OR</span>Ondřej Růžička</a>
+    <ul class="nav-links">
+      <li><a href="#projects">/projekty</a></li>
+      <li><a href="#experience">/zkušenosti</a></li>
+      <li><a href="#contact">/kontakt</a></li>
+      <li class="lang"><a href="../" hreflang="en" lang="en" onclick="try{localStorage.setItem('ruzickaond-lang','en')}catch(e){}">EN</a><span aria-current="true">CS</span></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section id="top" class="wrap hero">
+    <div class="hero-text">
+      <span class="status">Otevřený nabídkám · medior / senior</span>
+      <h1>Android vývojář.<br><em>Kotlin &amp; Compose</em> od prvního pixelu po Google Play.</h1>
+      <p class="lead">Jsem Ondřej Růžička. 7+ let stavím nativní Android aplikace s MVI architekturou, dřív jsem 8 let vedl testování. Píšu kód, který se dobře čte, testuje a udržuje.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projects">Zobrazit projekty</a>
+        <a class="btn btn-ghost" href="https://github.com/RuzickaOnd">GitHub</a>
+      </div>
+    </div>
+<pre class="code" aria-label="Krátký profil zapsaný jako kód v Kotlinu"><span class="c">// About.kt</span>
+<span class="k">data class</span> <span class="t">Developer</span>(
+  <span class="k">val</span> name = <span class="s">"Ondřej Růžička"</span>,
+  <span class="k">val</span> role = <span class="s">"Android Developer"</span>,
+  <span class="k">val</span> base = <span class="s">"Hradec Králové, CZ"</span>,
+  <span class="k">val</span> stack = listOf(
+    <span class="s">"Kotlin"</span>, <span class="s">"Compose"</span>, <span class="s">"MVI"</span>,
+    <span class="s">"Coroutines"</span>, <span class="s">"Koin"</span>, <span class="s">"Room"</span>
+  ),
+  <span class="k">val</span> languages = listOf(<span class="s">"CS"</span>, <span class="s">"EN B2"</span>)
+)</pre>
+  </section>
+
+  <section id="projects" class="wrap section" aria-labelledby="projects-title">
+    <h2 id="projects-title" class="section-title">Projekty</h2>
+
+    <div class="row">
+      <article class="tile app">
+        <div class="app-body">
+          <div class="app-head"><img class="app-icon" src="../img/clockout-icon.png" alt="" width="52" height="52"><span class="badge">LIVE · Google Play</span></div>
+          <h3>ClockOut</h3>
+          <p class="app-desc">Tříminutový rituál na konec pracovního dne. Bez účtu, bez reklam, data zůstávají v telefonu.</p>
+          <p class="stack">Kotlin · Compose · MVI · Room · Koin</p>
+          <div class="links"><a href="https://play.google.com/store/apps/details?id=org.clockout">Play ↗</a><a href="https://ruzickaond.github.io/clockout-app-web/cs/">Web ↗</a><a href="https://github.com/RuzickaOnd/clockout-app">Kód ↗</a></div>
+        </div>
+        <div class="app-shot"><img src="../img/clockout-cs.webp" alt="Snímek obrazovky ClockOut" width="170" height="303" loading="lazy"></div>
+      </article>
+
+      <article class="tile app">
+        <div class="app-body">
+          <div class="app-head"><img class="app-icon" src="../img/luxel-icon.png" alt="" width="52" height="52"><span class="badge">LIVE · Google Play</span></div>
+          <h3>Luxel</h3>
+          <p class="app-desc">Klidný denní světelný hlavolam. Rozsviťte dnešní tvar co nejmenším počtem tahů, i z widgetu na ploše.</p>
+          <p class="stack">Kotlin · Compose · Widget</p>
+          <div class="links"><a href="https://play.google.com/store/apps/details?id=app.luxel">Play ↗</a><a href="https://ruzickaond.github.io/luxel-web/cs/">Web ↗</a></div>
+        </div>
+        <div class="app-shot"><img src="../img/luxel-cs.webp" alt="Snímek obrazovky Luxel" width="170" height="303" loading="lazy"></div>
+      </article>
+    </div>
+
+    <div class="row">
+      <div class="tile stat stat-accent">
+        <span class="tile-label">since 2019</span>
+        <div><div class="stat-num">7+</div><div class="stat-cap">let Android vývoje</div></div>
+      </div>
+      <div class="tile stat">
+        <span class="tile-label">qa → dev</span>
+        <div><div class="stat-num">8</div><div class="stat-cap">let v testování, z toho vedení QA týmu</div></div>
+      </div>
+      <article class="tile app-wide">
+        <div class="app-head"><img class="app-icon" src="../img/allergytrack-icon.png" alt="" width="52" height="52"><span class="badge">LIVE · Google Play</span></div>
+        <h3 style="font-size: 28px">AllergyTrack</h3>
+        <p class="app-desc">Sleduj jídlo, příznaky a prostředí – korelační engine odhalí alergické spouštěče. Sken čárových kódů, 14 EU alergenů, pyl a kvalita ovzduší, PDF report pro lékaře. Zdravotní data zůstávají v zařízení.</p>
+        <p class="stack">Kotlin · Compose · Supabase · kotlinx.serialization</p>
+        <div class="links"><a href="https://play.google.com/store/apps/details?id=com.allergytrack.app">Play ↗</a><a href="https://github.com/RuzickaOnd/AllergyTrack">Kód ↗</a></div>
+      </article>
+    </div>
+
+    <div class="row">
+      <div class="tile" style="flex: 1 1 480px">
+        <span class="tile-label">klientské aplikace · MobileSoft</span>
+        <ul class="chips">
+          <li>Pelican Travel <small>· 4 aplikace</small></li>
+          <li>AppBlock</li>
+          <li>Meteopress</li>
+          <li>Dobrá práce</li>
+          <li>Bananasport</li>
+        </ul>
+      </div>
+      <div class="tile" style="flex: 1 1 380px">
+        <span class="tile-label">workflow</span>
+        <p style="color: var(--text2)">Scrum, Jira, Bitbucket, GitHub Actions. <strong style="color: var(--text)">AI jako součást vývoje</strong> – Claude a Gemini přímo v Android Studiu i v CLI.</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="experience" class="experience">
+    <section class="wrap section" aria-labelledby="experience-title">
+      <h2 id="experience-title" class="section-title">Zkušenosti</h2>
+      <div class="row">
+        <div class="job">
+          <span class="job-when">2019 → dnes</span>
+          <h3>Android vývojář · MobileSoft</h3>
+          <p>Kotlin, Compose, MVI, Room, Koin, Retrofit. Flutter projekt. Dlouhodobý vývoj pro Pelican Travel.</p>
+        </div>
+        <div class="job">
+          <span class="job-when">2011 → 2019</span>
+          <h3>Tester → Team Leader · Ders</h3>
+          <p>Testovací scénáře, vlastní framework pro automatizaci, školení a vedení týmu.</p>
+        </div>
+        <div class="job">
+          <span class="job-when">vzdělání</span>
+          <h3>Ing. · UHK, FIM</h3>
+          <p>Aplikovaná informatika. Před tím Univerzita obrany, komunikační a informační systémy.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="contact" class="wrap section" aria-labelledby="contact-title">
+    <div class="contact">
+      <h2 id="contact-title">Napište mi</h2>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:ruzicka.ond@gmail.com">Napsat e-mail</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/ond%C5%99ej-r%C5%AF%C5%BEi%C4%8Dka-8601609b/">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/RuzickaOnd">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap"><span>© 2026 Ondřej Růžička</span><span>build: static · hosted on GitHub Pages</span></div>
+</footer>
+</body>
+</html>
